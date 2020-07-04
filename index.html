@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <p><b>Note: </b>The form is to be submitted 21 days prior.</p>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <div>
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" />
+      </div>
+      <br />
+      <div>
+        <label>Address:</label>
+        <input type="text" name="address" placeholder="Enter your Address" />
+      </div>
+      <br />
+      <div>
+        <label>Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your Password"
+        />
+      </div>
+      <br />
+      <div>
+        <label>DOB:</label>
+        <input type="date" name="dob" placeholder="Enter your DOB" />
+      </div>
+      <br />
+      <div>
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your Email" />
+      </div>
+      <br />
+      <div>
+        <label>Phone number:</label>
+        <input type="number" name="number" placeholder="Enter your number" />
+      </div>
+      <br />
+      <div>
+        <label>IQ:</label>
+        <input type="number" name="iq" placeholder="Enter your IQ level" />
+      </div>
+      <br />
+      <div>
+        <label>Gender:</label>
+        <div>
+          <input type="radio" name="gender" value="male" />Male<br />
+          <input type="radio" name="gender" value="female" />Female<br />
+          <input type="radio" name="gender" value="other" />Other<br />
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Technologies Known:</legend>
+      <div>
+        <input type="checkbox" name="tech" value="html" />HTML<br />
+        <input type="checkbox" name="tech" value="css" />CSS<br />
+        <input type="checkbox" name="tech" value="js" />Java Script<br />
+        <input type="checkbox" name="tech" value="bootstrap" />Bootstrap<br />
+        <input type="checkbox" name="tech" value="python" />Python<br />
+      </div>
+    </fieldset>
+    <br />
+    <button style="padding: 15px; margin-left: 20px;">Submit Form</button>
+  </body>
+</html>
